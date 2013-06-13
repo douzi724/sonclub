@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Sonclub::Application.config.secret_token = '4d30f2cc90af4ad664a79f75f3578adc475cb83b8b3c4ce9e85636786217ebd385d96cfcaa16adcac1c5034cff72d747638317163cd8c58947ddf606b9ec97ec'
+Sonclub::Application.config.secret_token = 'cab559974804b93bcb37d5582f690809027e7b46b5d0cfb06608e5c4e75443022db8eb388651abb5843b9ef901c22bf21bbb223daf4cc703424cfa793bd512c0'
