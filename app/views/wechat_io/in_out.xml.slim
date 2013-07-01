@@ -1,0 +1,9 @@
+xml
+  ToUserName <![CDATA[#{params[:xml][:FromUserName]}]]>
+  FromUserName <![CDATA[#{params[:xml][:ToUserName]}]]>
+  CreateTime
+    = Time.now.to_i
+  MsgType <![CDATA[text]]>
+  Content
+    <![CDATA[卵崽：#{ @content }]]>
+  FuncFlag 0

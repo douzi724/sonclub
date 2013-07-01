@@ -1,4 +1,8 @@
 Sonclub::Application.routes.draw do
+  get "wechat_io" => 'wechat_io#check'
+
+  post "wechat_io" => 'wechat_io#in_out'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
